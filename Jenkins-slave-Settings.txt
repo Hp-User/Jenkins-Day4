@@ -1,0 +1,22 @@
+ To configure Master - Slave 
+
+ From manage Nodes option
+  add the slave node.
+
+  To launch the slave node three options
+  1.Launch from the browser as  JNLP Web Start (From the Control Panel-java plugin ->Run JNLP option must be enabled.
+
+  2.The Slave node can be launched by running slave .jar file from the command line at the respetcive slave directory.
+
+  javaws http://localhost:9090/computer/Slave1/slave-agent.jnlp
+
+ OR
+
+ For the agent is headless:
+
+java -jar slave.jar -jnlpUrl http://localhost:9090/computer/Slave1/slave-agent.jnlp
+ 
+  
+ Put the slave.jar file on the path or current directory on remote machine and add the machine as slave in master configuration
+
+ Use the slave.jar to run to start the slave

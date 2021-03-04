@@ -1,0 +1,14 @@
+<todos>
+  <todo id="1">
+    <name>Aaj kuch Toofani karo</name>
+    <note>Thunda Pio.</note>
+  </todo>
+  <todo id="2">
+    <name>Swipe the road</name>
+  </todo>
+  <todo id="3">
+      <name>Add AJAX support to website.</name>
+      <note>Use jQuery library.</note>
+  </todo>
+
+</todos>
